@@ -16,6 +16,7 @@ export default class SLAM extends Vue {
   async mounted() {
     this.canvas = document.querySelector("canvas") as HTMLCanvasElement;
     this.ctx = this.canvas.getContext("2d") as CanvasRenderingContext2D;
+    // todo: make this an async init function in videoLoader
     await this.videoLoader.videoFrames[0].image;
     await this.updateCurrentFrame(0);
   }
