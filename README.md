@@ -1,4 +1,4 @@
-# web-slam
+# web-slam: WIP
 
 Informal Slam Development Environment. If all else, some boilerplate code to step through some video frame by frame in the browser, with some neat caching. 
 
